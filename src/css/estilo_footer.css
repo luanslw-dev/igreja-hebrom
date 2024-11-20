@@ -12,12 +12,12 @@
 
 .redes_sociais {
     display: flex;
-    gap: 10px;
-  justify-content: center;
-  margin-top: 10px;
+justify-content: center;
   list-style: none;
+  gap: 10px;
 
 }
+
 .redes_sociais a i {
     border: 1px solid var(--cor0);
     border-radius: 50%;
@@ -27,8 +27,8 @@
     text-align: center;
     font-size: 26px;
     transition: 0.3s;
-    justify-content: center;
- 
+    
+  
 }
 .redes_sociais a i:hover {
     color:var(--cor0);
@@ -42,20 +42,25 @@ footer {
     color:var(--cor0);
     text-align: center;
     font-size: 1em;
-padding: 1em;
+    padding: 1em;
+    box-shadow: 0 0 5px 5px #00000081;
+
 
    
 }
 
-#footer{
-  
-    
-}
 
 #footer span{
     font-weight: bold;
-    color:var(--cor0);
-    
+      
+}
+footer p#footer_cima span{
+    color: #fff;
+    text-align: center;
+}
+
+footer p#footer {
+  color: #fff;
 }
 #footer_cima span{
     font-weight: bold;
