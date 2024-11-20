@@ -1,12 +1,13 @@
 .comunicacao  {
     list-style: none;
    padding: 10px;
+   
 
  }
  .comunicacao  li{
     margin-bottom: 5px;
-  
  }
+ 
 
 
 .redes_sociais {
@@ -33,6 +34,7 @@
     color:var(--cor0);
     border: 1px solid var(--cor0);
     transform: scale(1.3);
+    
 }
 
 footer {
@@ -41,6 +43,7 @@ footer {
     text-align: center;
     font-size: 1em;
 padding: 1em;
+
    
 }
 
