@@ -1,0 +1,75 @@
+.comunicacao  {
+    list-style: none;
+   padding: 10px;
+
+ }
+ .comunicacao  li{
+    margin-bottom: 5px;
+  
+ }
+
+
+.redes_sociais {
+    display: flex;
+    gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  list-style: none;
+
+}
+.redes_sociais a i {
+    border: 1px solid var(--cor0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+    justify-content: center;
+ 
+}
+.redes_sociais a i:hover {
+    color:var(--cor0);
+    border: 1px solid var(--cor0);
+    transform: scale(1.3);
+}
+
+footer {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1),var(--cor0));
+    color:var(--cor0);
+    text-align: center;
+    font-size: 1em;
+padding: 1em;
+   
+}
+
+#footer{
+  
+    
+}
+
+#footer span{
+    font-weight: bold;
+    color:var(--cor0);
+    
+}
+#footer_cima span{
+    font-weight: bold;
+    color:var(--cor0);
+    text-transform: capitalize;
+    
+}
+
+
+footer a {
+color:var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+
+   
+}
+footer a:hover{
+
+    color: var(--cor4);
+}

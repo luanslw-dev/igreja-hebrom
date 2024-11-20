@@ -1,0 +1,81 @@
+ /* Estilo para o menu principal */
+ 
+ 
+header {
+background-image: linear-gradient(to bottom, var(--cor0), var(--cor1),var(--cor0));
+    min-height: 150px;
+    padding-top: 40px;
+}
+header> img {
+width: 300px;
+display: flex;
+align-items: center;
+
+  
+}
+
+
+ nav ul {
+  
+    list-style-type: none; /* Remove os marcadores da lista */
+margin: 0;
+padding: 0;
+    
+}
+
+/* Estilo para os itens da lista principal */
+nav li {
+    display: inline-block;
+    position: relative; /* Necessário para o submenu */
+   
+   
+}
+
+/* Estilo para os links principais */
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Efeito ao passar o mouse sobre os itens do menu principal */
+nav li a:hover {
+   
+    transition: 3s;
+}
+
+/* Estilo para o submenu (inicialmente escondido) */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color:var(--cor0);
+   
+}
+
+/* Estilo para os itens do submenu */
+nav ul ul li {
+    display: block;
+    width: 100%;
+}
+
+/* Exibe o submenu quando o mouse passar sobre o item principal */
+nav li:hover > ul {
+    display: block;
+  
+}
+
+/* Estilo para os links do submenu */
+nav l ul li a {
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Efeito de hover no submenu */
+nav ul ul li a:hover {
+   
+}
+
