@@ -42,6 +42,7 @@ div.form_novos_convertidos label{
 div.form_novos_convertidos input{
    padding: 10px;
    border-radius: 10px;
+   
 }
 
 div.form_novos_convertidos input.bnt{
@@ -49,6 +50,9 @@ div.form_novos_convertidos input.bnt{
   flex-direction: column;
   background-color:var(--cor0);
   color: white;
+  text-align: center;
+  width: 120px;
+  margin: auto;
  }
  div.form_novos_convertidos input.bnt:hover{
     transition: 1s;
